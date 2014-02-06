@@ -1,0 +1,4 @@
+C:\Users\Rodney Pacis\documents\visual studio 2013\Projects\BIAS-Bootstrap-MasterPage\BIAS-Bootstrap-MasterPage\bin\Debug\BIAS-Bootstrap-MasterPage.dll
+C:\Users\Rodney Pacis\documents\visual studio 2013\Projects\BIAS-Bootstrap-MasterPage\BIAS-Bootstrap-MasterPage\bin\Debug\BIAS-Bootstrap-MasterPage.pdb
+C:\Users\Rodney Pacis\documents\visual studio 2013\Projects\BIAS-Bootstrap-MasterPage\BIAS-Bootstrap-MasterPage\obj\Debug\BIAS-Bootstrap-MasterPage.dll
+C:\Users\Rodney Pacis\documents\visual studio 2013\Projects\BIAS-Bootstrap-MasterPage\BIAS-Bootstrap-MasterPage\obj\Debug\BIAS-Bootstrap-MasterPage.pdb

@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{45F6EB31-9A26-4250-9787-4FC3CEB39D9F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BIAS_Bootstrap_MasterPage</RootNamespace>
+    <AssemblyName>BIAS-Bootstrap-MasterPage</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>True</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BIASWhatsNewList\BIASWhatsNewListInstance\Elements.xml" />
+    <Content Include="BIASWhatsNewList\Elements.xml" />
+    <Content Include="BIASWhatsNewList\Schema.xml" />
+    <Content Include="Features\UGA-BIAS-Feature\UGA-BIAS-Feature.Template.xml">
+      <DependentUpon>UGA-BIAS-Feature.feature</DependentUpon>
+    </Content>
+    <Content Include="Modules\BS3Layouts\bs3-banded.aspx" />
+    <Content Include="Modules\BS3Layouts\bs3-banner.aspx" />
+    <Content Include="Modules\BS3Layouts\bs3-blog.aspx" />
+    <Content Include="Modules\BS3Layouts\bs3-main-page.aspx" />
+    <Content Include="Modules\BS3Layouts\bs3-orbit.aspx" />
+    <Content Include="Modules\BS3Layouts\bs3-sidebar.aspx" />
+    <Content Include="Modules\BS3Layouts\bs3-workspace.aspx" />
+    <Content Include="Modules\BS3Layouts\Elements.xml" />
+    <Content Include="Modules\CSS\css\bootstrap2-custom.min.css" />
+    <Content Include="Modules\CSS\css\bootstrap3.min.css" />
+    <Content Include="Modules\CSS\css\bootstrap3-custom.min.css" />
+    <Content Include="Modules\CSS\Elements.xml" />
+    <Content Include="Modules\CSS\css\font-awesome.min.css" />
+    <Content Include="Modules\CSS\css\sp-responsive.css" />
+    <Content Include="Modules\CSS\css\uga-bias-custom.css" />
+    <Content Include="Modules\Fonts\Elements.xml" />
+    <Content Include="Modules\Js\js\uga-bias-custom.js" />
+    <None Include="BIASWhatsNewList\BIASWhatsNewListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{14861cb8-f229-4dee-a5b0-8c1aa2043b78}</SharePointProjectItemId>
+    </None>
+    <None Include="BIASWhatsNewList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{13416bd9-439c-4d63-b380-3bf78490e354}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\UGA-BIAS-Feature\UGA-BIAS-Feature.feature">
+      <FeatureId>{c429d44b-31a2-4c9f-aa52-f489924cf027}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <Content Include="Modules\Js\Elements.xml" />
+    <Content Include="Modules\Js\js\bootstrap3-custom.js" />
+    <Content Include="Modules\Js\js\bootstrap3.min.js" />
+    <Content Include="Modules\Js\js\jquery-1.9.1.js" />
+    <Content Include="Modules\UGABIASBootstrapMasterPages\uga-bias-bootstrap3.master" />
+    <Content Include="Modules\UGABIASBootstrapMasterPages\Elements.xml" />
+    <None Include="Modules\BS3Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a1b5ef1f-763f-48ba-8c8f-532e81221e3a}</SharePointProjectItemId>
+    </None>
+    <None Include="Modules\CSS\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{51f8bde5-f278-40ff-b7e8-001ec8279bcf}</SharePointProjectItemId>
+    </None>
+    <None Include="Modules\Fonts\fonts\fontawesome-webfont.eot" />
+    <None Include="Modules\Fonts\fonts\fontawesome-webfont.svg" />
+    <None Include="Modules\Fonts\fonts\fontawesome-webfont.ttf" />
+    <None Include="Modules\Fonts\fonts\fontawesome-webfont.woff" />
+    <None Include="Modules\Fonts\fonts\FontAwesome.otf" />
+    <None Include="Modules\Fonts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d318d67e-a4b1-4143-bff2-d1330f44348e}</SharePointProjectItemId>
+    </None>
+    <None Include="Modules\Js\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{37177085-ee26-440f-877b-bfb229179042}</SharePointProjectItemId>
+    </None>
+    <None Include="Modules\UGABIASBootstrapMasterPages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{19fcb555-ca68-4ec9-8f1a-dac0d1881026}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{afc6c999-1af2-4982-b7b6-19301c33f804}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Other Imported Files\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="UGABIASBootstrapMasterPages" Url="_catalogs/masterpage" RootWebOnly="TRUE" xmlns="http://schemas.microsoft.com/sharepoint/">
+    <File Url="uga-bias-bootstrap3.master" Type="GhostableInLibrary" ReplaceContent="TRUE" Path="UGABIASBootstrapMasterPages\uga-bias-bootstrap3.master">
+      <!--<Property Name="ContentType" Value="$Resources:cmscore,contenttype_masterpage_name;" />-->
+      <Property Name="Title" Value="UGA-BIAS B3 MasterPage" />
+      <!--<Property Name="PublishingPreviewImage" Value="$PublishingPreviewImage$" />-->
+      <Property Name="MasterPageDescription" Value="SharePoint Server-compatible version" />
+      <Property Name="UIVersion" Value="15" />
+    </File>
+  </Module>
+</Elements>

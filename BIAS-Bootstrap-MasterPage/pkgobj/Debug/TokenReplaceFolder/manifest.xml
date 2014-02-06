@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="8b7534c7-f5bf-4097-8b43-e54ddc237ea1" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="BIAS-Bootstrap-MasterPage.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="BIAS-Bootstrap-MasterPage_UGA-BIAS-Feature\Feature.xml" />
+  </FeatureManifests>
+</Solution>

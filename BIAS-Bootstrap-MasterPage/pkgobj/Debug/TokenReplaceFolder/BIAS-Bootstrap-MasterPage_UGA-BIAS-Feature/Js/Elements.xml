@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="Js" Url="Style Library" RootWebOnly="TRUE" >
+    <File Path="Js\js\bootstrap3.min.js" Url="Js/js/bootstrap3.min.js" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+    <File Path="Js\js\bootstrap3-custom.js" Url="Js/js/bootstrap3-custom.js" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+    <File Path="Js\js\jquery-1.9.1.js" Url="Js/js/jquery-1.9.1.js" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+    <File Path="Js\js\uga-bias-custom.js" Url="Js/js/uga-bias-custom.js" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

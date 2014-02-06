@@ -1,0 +1,1 @@
+bin\Debug\BIAS_Bootstrap_MasterPage.wsp

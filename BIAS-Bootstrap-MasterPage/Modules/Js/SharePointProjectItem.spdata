@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="js\bootstrap3.min.js" Target="Js\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\bootstrap3-custom.js" Target="Js\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\jquery-1.9.1.js" Target="Js\js\" Type="ElementFile" />
+    <ProjectItemFile Source="Elements.xml" Target="Js\" Type="ElementManifest" />
+    <ProjectItemFile Source="js\uga-bias-custom.js" Target="Js\js\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

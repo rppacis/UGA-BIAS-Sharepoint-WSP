@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="afc6c999-1af2-4982-b7b6-19301c33f804" solutionId="8b7534c7-f5bf-4097-8b43-e54ddc237ea1" resetWebServer="false" sharePointProductVersion="15.0" name="BIAS_Bootstrap_MasterPage" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="c429d44b-31a2-4c9f-aa52-f489924cf027" />
+  </features>
+</package>

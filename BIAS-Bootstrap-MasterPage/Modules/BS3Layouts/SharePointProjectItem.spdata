@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="bs3-banded.aspx" Target="BS3Layouts\" Type="ElementFile" />
+    <ProjectItemFile Source="bs3-banner.aspx" Target="BS3Layouts\" Type="ElementFile" />
+    <ProjectItemFile Source="bs3-blog.aspx" Target="BS3Layouts\" Type="ElementFile" />
+    <ProjectItemFile Source="bs3-orbit.aspx" Target="BS3Layouts\" Type="ElementFile" />
+    <ProjectItemFile Source="bs3-sidebar.aspx" Target="BS3Layouts\" Type="ElementFile" />
+    <ProjectItemFile Source="bs3-workspace.aspx" Target="BS3Layouts\" Type="ElementFile" />
+    <ProjectItemFile Source="Elements.xml" Target="BS3Layouts\" Type="ElementManifest" />
+    <ProjectItemFile Source="bs3-main-page.aspx" Target="BS3Layouts\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="UGA-BIAS-Feature" Id="d7b44823-5939-46a5-a5e1-dcbd4458228c" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="BIASWhatsNewListInstance\Elements.xml" />
+    <ElementManifest Location="BIASWhatsNewList\Elements.xml" />
+    <ElementFile Location="BIASWhatsNewList\Schema.xml" />
+    <ElementFile Location="BS3Layouts\bs3-banded.aspx" />
+    <ElementFile Location="BS3Layouts\bs3-banner.aspx" />
+    <ElementFile Location="BS3Layouts\bs3-blog.aspx" />
+    <ElementFile Location="BS3Layouts\bs3-orbit.aspx" />
+    <ElementFile Location="BS3Layouts\bs3-sidebar.aspx" />
+    <ElementFile Location="BS3Layouts\bs3-workspace.aspx" />
+    <ElementManifest Location="BS3Layouts\Elements.xml" />
+    <ElementFile Location="BS3Layouts\bs3-main-page.aspx" />
+    <ElementManifest Location="CSS\Elements.xml" />
+    <ElementFile Location="CSS\css\bootstrap3.min.css" />
+    <ElementFile Location="CSS\css\bootstrap3-custom.min.css" />
+    <ElementFile Location="CSS\css\font-awesome.min.css" />
+    <ElementFile Location="CSS\css\uga-bias-custom.css" />
+    <ElementFile Location="CSS\css\sp-responsive.css" />
+    <ElementFile Location="CSS\css\bootstrap2-custom.min.css" />
+    <ElementManifest Location="Fonts\Elements.xml" />
+    <ElementFile Location="Fonts\fonts\FontAwesome.otf" />
+    <ElementFile Location="Fonts\fonts\fontawesome-webfont.eot" />
+    <ElementFile Location="Fonts\fonts\fontawesome-webfont.svg" />
+    <ElementFile Location="Fonts\fonts\fontawesome-webfont.ttf" />
+    <ElementFile Location="Fonts\fonts\fontawesome-webfont.woff" />
+    <ElementFile Location="Js\js\bootstrap3.min.js" />
+    <ElementFile Location="Js\js\bootstrap3-custom.js" />
+    <ElementFile Location="Js\js\jquery-1.9.1.js" />
+    <ElementManifest Location="Js\Elements.xml" />
+    <ElementFile Location="Js\js\uga-bias-custom.js" />
+    <ElementFile Location="UGABIASBootstrapMasterPages\uga-bias-bootstrap3.master" />
+    <ElementManifest Location="UGABIASBootstrapMasterPages\Elements.xml" />
+  </ElementManifests>
+</Feature>

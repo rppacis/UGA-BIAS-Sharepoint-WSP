@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="CSS" Url="Style Library" RootWebOnly="TRUE">
+    <File Path="CSS\css\bootstrap3.min.css" Url="CSS/css/bootstrap3.min.css" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+    <File Path="CSS\css\bootstrap3-custom.min.css" Url="CSS/css/bootstrap3-custom.min.css" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+    <File Path="CSS\css\font-awesome.min.css" Url="CSS/css/font-awesome.min.css" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+    <File Path="CSS\css\uga-bias-custom.css" Url="CSS/css/uga-bias-custom.css" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+    <File Path="CSS\css\sp-responsive.css" Url="CSS/css/sp-responsive.css" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+    <File Path="CSS\css\bootstrap2-custom.min.css" Url="CSS/css/bootstrap2-custom.min.css" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

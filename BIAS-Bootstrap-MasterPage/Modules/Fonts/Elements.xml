@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Fonts" Url="Style Library" RootWebOnly="TRUE">
+    <File Path="Fonts\fonts\FontAwesome.otf" Url="Fonts/fonts/FontAwesome.otf" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+    <File Path="Fonts\fonts\fontawesome-webfont.eot" Url="Fonts/fonts/fontawesome-webfont.eot" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+    <File Path="Fonts\fonts\fontawesome-webfont.svg" Url="Fonts/fonts/fontawesome-webfont.svg" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+    <File Path="Fonts\fonts\fontawesome-webfont.ttf" Url="Fonts/fonts/fontawesome-webfont.ttf" Type="GhostableInLibrary" ReplaceContent="TRUE"/>
+    <File Path="Fonts\fonts\fontawesome-webfont.woff" Url="Fonts/fonts/fontawesome-webfont.woff" Type="GhostableInLibrary" ReplaceContent="TRUE"/>
+  </Module>
+</Elements>
